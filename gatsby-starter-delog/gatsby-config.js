@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Hunter CS Club Network`,
-        short_name: `huntercs.club`,
+        name: `Delog GatbsyJS Starter`,
+        short_name: `Delog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,

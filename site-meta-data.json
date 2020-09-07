@@ -1,9 +1,16 @@
 {
-  "title": "Delog",
-  "siteUrl": "https://delog-w3layouts.netlify.com/",
-  "description": "Delog, a GatsbyJS and Netlify CMS starter for Designers and Developers",
+  "title": "Hunter CS Club Network",
+  "siteUrl": "http://huntercs.club",
+  "description": "United together to make Hunter CS the best it can be.",
   "home": {
-    "title": "Hi! I'm Delog",
-    "description": "I have been specifically designed to become a digital home for designers and developers, help them build amazing professional looking websites with ease. You don't have to worry about nitty gritty of web hosting services to run a blog and yet take full advantage of CMS to manage content :)"
-  }
+    "title": "We're the Hunter CS Club Network",
+    "description": "Looking for our club pages? This is your starting point!"
+  },
+  "clubs": [
+    {
+      "name": "OSC",
+      "link": "https://hunterosc.org",
+      "est": "2019-09-30"
+    }
+  ]
 }

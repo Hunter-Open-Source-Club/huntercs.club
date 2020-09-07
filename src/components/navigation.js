@@ -1,14 +1,15 @@
 import React from "react"
-import {Link} from "gatsby"
+import {Link as a} from "gatsby"
 import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <Link to="https://hunterosc.org/">OSC</Link>
-    <Link to="https://www.hunteracm.org/">ACM</Link>
-    <Link to="http://dsc.huntercs.club">DSC</Link>
-    <Link to="http://discord.huntercs.club">Hunter CS Network Discord</Link>
-    <Link to="http://blog.huntercs.club">Our Medium</Link>
+    <a href="http://discord.huntercs.club">Discord</a>
+    <a href="https://hunterosc.org/">OSC</a>
+    <a href="https://www.hunteracm.org/">ACM</a>
+    <a href="http://dsc.huntercs.club">DSC</a>
+    <a href="http://blog.huntercs.club">Medium</a>
+    <ThemeChanger/>
   </nav>
   
 )
