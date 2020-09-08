@@ -16,10 +16,9 @@ const IndexPage = ({
     .filter((edge) => !!edge.node.frontmatter.date) // You can filter your posts based on some criteria
     .map((edge) => <PostLink key={edge.node.id} post={edge.node} />);
 
-  // console.log(site.siteMetadata);
-  // const ClubCards = site.siteMetadata.clubs.map((club) => (
-  //   <ClubCard {...club} />
-  // ));
+  const ClubCards = site.siteMetadata.clubs.map((club) => (
+    <ClubCard {...club}/>
+  ));
 
   return (
     <Layout>
@@ -28,9 +27,9 @@ const IndexPage = ({
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader />
-      <h2>Pages&darr;</h2>
-      {/* <div className="grids">{ClubCards}</div> */}
-      <div className="grids">{Posts}</div>
+      <h2>Club Sites&darr;</h2>
+      <div className="grids">{ClubCards}</div>
+      {/* <div className="grids">{Posts}</div> */}
     </Layout>
   );
 };
@@ -42,6 +41,12 @@ export const pageQuery = graphql`
       siteMetadata {
         title
         description
+        clubs {
+          name
+          link
+          est
+          thumbnail
+        }
       }
     }
     allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {

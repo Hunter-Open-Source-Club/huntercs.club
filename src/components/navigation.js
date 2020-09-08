@@ -4,7 +4,7 @@ import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <a href="http://discord.huntercs.club">Discord</a>
+    <a href="https://discord.com/invite/wptKBu?utm_source=Discord%20Widget&utm_medium=Connect">Discord</a>
     <a href="https://hunterosc.org/">OSC</a>
     <a href="https://www.hunteracm.org/">ACM</a>
     <a href="http://dsc.huntercs.club">DSC</a>
