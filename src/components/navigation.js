@@ -1,10 +1,10 @@
 import React from "react"
-import {Link as a} from "gatsby"
+import {Link} from "gatsby"
 import ThemeChanger from "../components/themeChanger"
 
 export default (props) => (
   <nav className="navigation"> 
-    <a href="https://discord.com/invite/wptKBu?utm_source=Discord%20Widget&utm_medium=Connect">Discord</a>
+    <Link to="/contact">Discord</Link>
     <a href="https://hunterosc.org/">OSC</a>
     <a href="https://www.hunteracm.org/">ACM</a>
     <a href="http://dsc.huntercs.club">DSC</a>

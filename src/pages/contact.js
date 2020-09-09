@@ -27,7 +27,7 @@ const ContactPage = ({ data: { site } }) => {
         <div>
           <iframe
             src="https://discord.com/widget?id=745795250349539487&theme=dark"
-            width="350"
+            width="425"
             height="500"
             allowtransparency="true"
             frameborder="0"
